@@ -1,0 +1,45 @@
+*::after
+*::before
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background-green {
+    background-color: #116E8B;
+    padding: 0px 20px 0px 20px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    img{
+        .pipe{
+           width: 70px;
+        }
+        button{
+            border: none;
+            background: none;
+            color: #fff;
+            padding: 15px 10px;
+            cursor: pointer;
+        }
+
+    }
+    div{
+        button-size{
+            width: 230px;
+            height: 93px;
+            font-size: larger;
+        }
+        
+    }
+}
+h1 {
+    font-family: "poppins", sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    color: white;
+    font-size: xx-large;
+}

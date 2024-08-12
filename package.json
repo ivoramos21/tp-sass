@@ -1,0 +1,13 @@
+{
+  "name": "sass-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+   "build-css":"node-sass --include-path scss ./sass/style.scss ./css/style.css"
+   "watch-css":"nodemon -e scss -x \"nmp run build-css\
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
