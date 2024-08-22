@@ -4,42 +4,124 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+     
+    @import url(./_media-queries.scss);
+    @import url(../media/header.sass);
 }
 .background-green {
     background-color: #116E8B;
     padding: 0px 20px 0px 20px;
-}
+ }
+ 
+
+    
+
 header {
     display: flex;
     justify-content: space-between;
     padding: 30px 0px;
-    img{
-        .pipe{
-           width: 70px;
-        }
-        button{
-            border: none;
-            background: none;
-            color: #fff;
-            padding: 15px 10px;
-            cursor: pointer;
-        }
-
+   
+   
+        
     }
-    div{
-        button-size{
+    .pipe {
+        height: 78px;
+      }
+
+      button{
+        border: none;
+    background: none;
+    color: #fff;
+    padding: 15px 10px;
+    margin: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: larger;
+    font-family: nike;
+} a{
+
+        
+button-size{
             width: 230px;
             height: 93px;
             font-size: larger;
+            text-decoration: none;
+            
+          
         }
+        .buttom-size:hover {
+            border-bottom: 1px solid white;
+            text-decoration: none;
+           
+        }
+    }
+      .container-icon{
+            display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: space-between;
+    color: white;
+    
         
     }
-}
-h1 {
-    font-family: "poppins", sans-serif;
-    text-align: center;
-    font-weight: bolder;
-    font-style: italic;
-    color: white;
-    font-size: xx-large;
-}
+    
+
+    
+    main{
+        div{
+            h1{
+
+                    font-family: nike;
+                    text-align: center;
+                    font-weight: bolder;
+                    font-style: italic;
+                    color: white;
+                    font-size: xx-large;
+                }
+                h2 {
+                    font-family: nike;
+                    text-align: center;
+                    font-weight: bolder;
+                    text-transform: capitalize;
+                    font-style: normal;
+                    color: white;
+                }
+                .tshirts-imgs-1{
+                    width: 6.25rem;
+                    height:  6.25rem;
+                    
+                }
+                }
+                
+            } 
+            
+            article{
+                .tshirts-imgs {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: row;
+                    
+                }
+                
+                
+                    
+
+                }
+                footer{
+                    .form-register{
+                        width: 400px;
+                        background: #24303c;
+                        padding: 30px;
+                        margin: auto;
+                        margin-top: 100px;
+                        border-radius: 4px;
+                        font-family: "calibri";
+                        color: white;
+                    }
+                }
+            
+        
+    
+
+
+    
